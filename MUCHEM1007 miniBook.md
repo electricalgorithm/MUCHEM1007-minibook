@@ -3,7 +3,7 @@
 > Marmara University School of Engineering
 > Course credit: 6 ACTS 
 > Course Lecturer: Dr. Özge Kerkez Kuyumcu
-> Last Updated: Dec, 31 2020. 
+> Last Updated: Jan, 19 2020. 
 >
 > Note: Wx stands for xth week's lesson.
 
@@ -11,7 +11,8 @@
 > from teacher's slides and himself's notes
 > with using Markdown, Typora, LaTeX/
 > MathJAX, mhcem. Also, used theme is named
-> as "Paper" in the Typora store.
+> as "Academic" in the Typora store.
+>
 
 > [TOC]
 > 
@@ -42,9 +43,13 @@
 | Solvent              | Çözücü                           |
 | Restrain             | Ölçülemek, Tutmak, Sınırlamak    |
 | Saturated            | Doymuş                           |
-| Semipermeable        | Yarı geçirgen                    |
-| Crenation            | Plazmoliz                        |
-| Hemolysis            | Deplazmoliz                      |
+| Semipermeable | Yarı geçirgen |
+| Crenation | Plazmoliz |
+| Hemolysis | Deplazmoliz |
+| Buffer Solutions | Tampon Çözeltiler |
+| Solubility Product | Çözünürlük Çarpımı |
+| Precipitation Reactions | Çökelme Tepkimeleri |
+| Metathesis Reactions | Yer Değiştirme Tepkimeleri |
 
 ---
 <div style="page-break-after: always;"></div>
@@ -471,8 +476,6 @@ B -- No --> D("Heterogeneous Mixture")
   V \propto T_{abs}
   $$
 
-* 
-
 * Avogadro's Law
   $$
   V \propto n
@@ -751,3 +754,176 @@ $$
 * In multistep processes, one of the steps will be slower than all others. That step will be the reaction to write rate law. Note that, termolecular processes are rare, so that if there's a termolecular processes, look for two-step mechanism.
 
 * Catalysts increase the rate of a reaction by decreasing the activation energy of the reaction. Enzymes are the catalysts in biological systems.
+
+<div style="page-break-after: always;"></div>
+
+## W12 | Chemical Equilibrium
+
+* Equilibrium means that the forward reaction speed is equal to the backward reaction speed. If we use rate law and make some algebraic manipulations, the $\frac{K_{forward}}{K_{backward}}$ becomes $K_{equilibrium}$ and can be formulated bellow. For $\ce{aA + bB -> cC + dD}$
+	$$
+	K_{eq} = \frac{[C]^c  [D]^d}{[A]^a  [B]^b}
+	$$
+* Since pressure is related to concentration for gases, we can write the equilibrium constant's formula as like shown bellow.
+	$$
+	K_p = \frac{(P_C^c)(P_D^d)}{(P_A^a)(P_B^b)}
+	$$
+* From the Ideal Gas equation, we can derive $K_p$ from the $K_c$. Here, $\delta n$ means the subtraction of moles of gaseous reactant from the moles of gaseous product. ($\delta n = (moles\ of\ gaseous\ product)-(moles\ of\ gaseous\ reactant)$)
+	$$
+	K_p = K_c (RT)^{\delta n}
+	$$
+* Equilibrium can be reached from either direction. It doesn't matter whether we start with reactants or products.
+* If $K >> 1$, the reaction is product-favoured; product predominates at equilibrium.
+* If $K << 1$, the reaction is reactant-favoured; reactant predominates at equilibrium.
+* Manipulating equilibrium constants with algebra has rules.
+	* If the reaction turned vice-versa, reactants became products and products became reactants, the constant will be reciprocated. It means that getting the $\frac{1}{K_{eq}}$.
+	* If the reaction multiplied with a number, the constant will be powered with the number. (For multiplying with 2, constant will be $K_{eq}^2$.)
+	* The equilibrium constant for a net reaction made up of two or more steps is the product of the equilibrium constants for the individual steps.
+* The concentrations of solids and liquids (not ions) do not appear in the equilibrium expressions.
+* *The Reaction Quotient (Q)* gives the same ratio the equilibrium expression gives, but for a system that is not at equilibrium.
+	* If $Q<K$, reaction forms products because there is too much reactant.
+	* If $Q=K$, reaction is at equilibrium.
+	* If $Q>K$, reaction forms reactants because there is too much product.
+* **Le Châtelier's Principle** states that "If a system at equilibrium is disturbed by a change in temperature, pressure, or the concentration of one of the components, the system will shift its equilibrium position so as to counteract the effect of the disturbance.".
+	* If a matter added to the equilibrium, the reaction wants to decrease the matter so that the equilibrium stays. 
+	* For endothermic reactions, if you heat the equilibrium, it will want to decrease temperature (spend heat/energy). If you cool the equilibrium, it will want to increase temperature.
+* Catalysts increase the rate of both direction of reactions. Equilibrium is achieved faster with using it.
+
+<div style="page-break-after: always;"></div>
+
+## W13 | Acid-Base Equilibria
+* Arrhenius perspective on acid and bases is,
+	* An acid is a substance that, when dissolved in water, increases the concentration of hydrogen ions. ($\ce{H+}$)
+	* A base is a substance that, when dissolved in water, increases the concentration of hydroxide ions. ($\ce{OH-}$)
+* Bronsted-Lowry perspective on acid and bases is,
+	* An acid is a proton donor. It must have a removable acidic proton.
+	* A base is a proton acceptor. It mush have a pair of nonbonding electrons.
+	* If it is both have these two situation, it is an **amphiprotic**.
+* Lewis acids are defined as electron-pair acceptors. Atoms with an empty valence orbital can be Lewis acids. Lewis bases are defined as electron-pair donors. (Note: Lewis bases can interact with things other than protons.)
+* **Conjugate** comes from the Latin and meaning "to join together". An example of conjugate bases and acids are given. In the example, $\ce{HNO2}$ is a acid because it removes $\ce{H+}$ and it's conjugate base is $\ce{NO2-}$. $\ce{H2O}$ is base because it adds $\ce{H+}$ and it's conjugate acid is $\ce{H3O+}$.
+	$$
+	\ce{HNO2(aq) + H2O(I) <--> NO2-(aq) + H3O+(aq)}
+	$$
+* In acid-base reactions, equilibrium favours the production of the weaker acid and base. ie; the stronger the reacting acid and base, the more complete the reaction. Think of a Bronsted acid-base reaction as a competition between the 2 bases in the system for protons. The stronger base "wins" and forces the equilibrium in the direction of the weaker acid and base. Bellow, the $\ce{H2O}$ and $\ce{ClO4-}$ ions, both bases, are competing for proton. $\ce{H2O}$, the stronger of the two, "wins" and the equilibrium is shifted to the right in the direction of the weaker base, $\ce{ClO4-}$ ions. $\ce{HClO4}$, the stronger acid, has a greater tendency to give it's protons to $\ce{H2O}$ than $\ce{H3O+}$ ions have to give their protons to $\ce{ClO4-}$ ions. The equilibrium is displaced so far to the right that the reaction is essentially complete.
+	$$
+	\ce{HClO4 (I) + H2O (I) -> H3O+ (aq) + ClO4- (aq)}
+	$$
+* Autoionization of water is a equilibrium reaction. The equilibrium constants is reffered to as the **ion product constant** for water.
+	$$
+	\ce{H2O <--> H30+ + OH-}
+	$$
+* pH is defined as the negative base-10 logarithm of the concentration of hydronium ion. $pH = -log[\ce{H3O+}]$. There are other "p" scales such as pOH and $pK_w$. $pOH = -log[\ce{OH-}]$ and $pK_W = -logK_w$.
+	$$
+	pH + pOH = pK_w = 14.00
+	$$
+* Some strong acids are $\ce{HCl, HBr, HI, HNO3, H2SO4, HClO3, HCIO4}$ and some strong bases are $\ce{Ca^2+, Sr^2+, Ba^2+}$.
+* The equilibrium constant for acid-dssociations is called the **acid-dissociation constant, $K_a$**. The greater $K_a$, the stronger is the acid. The equilibrium constant for base-dssociations is called the **base-dissociation constant, $K_b$**.
+* Percent ionization is the ratio of last molarit to initial molarit of acid.
+	$$
+	Ioniazation = \frac{[\ce{H3O+}]_{eq}}{[\ce{HA}]_{initial}} *100
+  $$
+* Polyprotic acids are specific acids that are capable of losing more than a single proton per molecule in acid-base reactions.
+* $K_a$ and $K_b$ are realted in this way:
+	$$
+	K_a * K_b = K_w
+	$$
+* Anions are bases, so that, they can react with water in a hydrolysis reaction to form $\ce{OH-}$ and the conjugate acid.
+	$$
+	\ce{X- (aq) + H2O (I) <--> HX (aq) + OH- (aq)}
+	$$
+* Cations with acidic protons (like $NH_4^+$) will lower the pH of a solution. Most metal cations that are hydrated in solution also lower the pH of the solution.
+* Greater charge and smaller size make a cation more acidic.
+* Effect of Cations and Anions are described here.
+	* An anion that is the conjugate base of a strong acid will not affect the pH.
+	* An anion that is the conjugate base of a weak acid will increase the pH.
+	* A cation that is the conjugate acid of a weak base will decrease the pH.
+	* Cations of the strong Arrhenius bases will not affect the pH.
+	* Other metal ions will cause a decrease in pH.
+	* When a solution contains both a weak acid and a weak base, the affect on pH depends on the $K_a$ and $K_b$ values.
+* Acidity increases from left to right across a row and from top to bottom down a group for $\ce{HX_n}$ combinations.
+* In oxyacids, in which an –OH is bonded to another atom, Y, the more electronegative Y is, the more acidic the acid. For a series of oxyacids, acidity increases with the number of oxygens.
+* Resonance in the conjugate bases of carboxylic acids stabilizes the base and makes the conjugate acid more acidic.
+
+<div style="page-break-after: always;"></div>
+
+## W13 | Acid-Base Equilibria
+
+* The extent of ionization of a weak electrolyte is decreased by adding to the solution a strong electrolyte that has an ion in common with the weak electrolyte. For an example, see page 4 of the Chapter 17's presentation file.
+
+* Buffers are solutions of a weak conjugate acid–base pair. We can calculate pH values of buffers with  Henderson–Hasselbalch equation that can be seen bellow. They are particularly resistant to pH changes. For an example calculation, see page 16 of the Chapter 17's presentation file.
+	$$
+	pH = pK_a + log \frac{[base]}{[acid]}
+	$$
+	
+* The pH range is the range of pH values over which a buffer system works effectively. It's best to choose an acid with a $pK_a$ close to the desired pH.
+* Solution process of addition a strong or base to a buffer is given schemeticly as follows and described with texts.
+	* Determine how the neutralization reaction affects the amounts of the weak acid and its conjugate base in solution.
+	* Use the Henderson–Hasselbalch equation to determine the new pH of the solution.
+	```mermaid
+	graph LR;
+	A("Buffer containing HX and X^-") --Add strong acid--> B("Strong acid reacts with<br>conjugate base component of buffer.<br>X- + H+ -> HX")
+	A --Add strong base--> C("Strong base reacts with<br>weak acid component of buffer.<br>HX + OH- -> X- + H2O")
+	
+	B --> D("Calculate new values of [HX] and [X-].")
+	C --> D
+	
+	D --> E("Use K_a, [HX], and [X-] to calculate [H+].")
+	
+	E --> F["pH"]
+	```
+* **Solubility product** ($K_{sp}$) is the rate of saturated solution. Don't confuse with solubility, these two are different things.
+	$$
+	\ce{BaSO4 <--> Ba^{2+} (aq) + SO4^2- (aq)}
+	$$
+	$$
+	K_{sp}=[\ce{Ba^2+}][\ce{SO4^2-}]\ \ [\frac{g}{L}\ or\ \frac{g}{mL}\ or\ M] 
+	$$
+	* The Common-Ion Effect: If one of the ions in a solution equilibrium is already dissolved in the solution, the equilibrium will shift to the left and the solubility of the salt will decrease.
+	* pH: If a substance has a basic anion, it will be more soluble in an acidic solution. Substances with acidic cations are more soluble in basic solutions.
+	* Complex Ions: Metal ions can act as Lewis acids and form complex ions with Lewis bases in the solvent. The formation of these complex ions increases the solubility of these salts.
+* In a solution,
+	* If $Q=K_{sp}$, the system is at equilibrium and the solution is saturated.
+	* If $Q < K_{sp}$, more solid can dissolve.
+	* If $Q > K_{sp}$, the salt will precipitate.
+
+<div style="page-break-after: always;"></div>
+
+## W13 | Reactions in Aqueous Solution
+
+* Solutions are homogeneous mixtures. **Solvents** are the ones who solves the **solutes**.
+* **Dissociation** is the process that the solvent pulls an individual ion from the crystal (ionic substance). Electrlolyte is dissociates into its ions when dissolved in water. Strong electrolytes dissociates completely but weak electrolytes dissociates partially.
+	* Strong acids are strong electrolytes.
+	* Strong bases are strong electrolytes.
+	* Soluble ionic salts are strong electrolytes.
+* Soluble ionic compounds are generally electrolytes.
+* Molecular componds, on the other hand, are generally non electrolytes. Except the ones who is an acid or a base.
+* The **molecular equation** lists the reactants and products in their molecular form. In the **ionic equation** all strong electrolytes (strong acids, strong bases, and soluble ionic salts) are dissociated into their ions. This more accurately reflects the species that are found in the reaction mixture.
+* To form the **net ionic equation**, cross out anything that does not change from the left side of the equation to the right. Those things that didn’t change (and were deleted from the net ionic equation) are called **spectator ions**.
+	* Write a balanced molecular equation.
+	* Dissociate all strong electrolytes.
+	* Cross out all spectator ions.
+	* Write the net ionic equations with remaining parts.
+* Generally, when solutions of an acid and a base are combined, the products are a salt and water. It's called as **neutralization reactions**.
+* Some metathesis reactions do not give the product expected. 
+	* When a carbonate or bicarbonate reacts with an acid, the products are a salt, carbon dioxide, and water.
+	* Similarly, when a sulfite reacts with an acid, the products are a salt, sulfur dioxide, and water.
+* An oxidation occurs when an atom or ion _loses_ electrons.
+* An reduction occurs when an atom or ion _gains_ electrons.
+* Oxidation number rules are,
+	* Elements in their elemtal form has an oxidation number of 0.
+	* The oxidation number of a monatomic ion is the same as its charge.
+	* Nonmetals tend to have negative oxidation numbers, although some are positive in certain compounds or ions.
+		* Oxygen has an oxidation number of −2, except in the peroxide ion, in which it has an oxidation number of −1.
+		* Hydrogen is −1 when bonded to a metal, +1 when bonded to a nonmetal.
+		* Fluorine always has an oxidation number of −1.
+		* The other halogens have an oxidation number of −1 when they are negative; they can have positive oxidation numbers, however, most notably in oxyanions.
+	* The sum of the oxidation numbers in a neutral compound is 0.
+	* The sum of the oxidation numbers in a polyatomic ion is the charge on the ion.
+* In displacement reactions, ions oxidize an element. The ions, then, are reduced. The reverse reaction does not occur in this type of reactions because of their activities.
+* Molarity is a way to measure the concenration of a solution.
+	$$
+	Molarity\ [M] = \frac{moles\ of\ solute}{volume\ of\ solution\ in\ liters}
+	$$
+
+<hr>
+
+End of the story, for just now. Thank you for your contributions.

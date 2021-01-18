@@ -1,5 +1,7 @@
 # MUCHEM 1007.4 Lecture Notes
 
+>  Last version: 190121
+
 You can contribute to our minibook with using these tools:
 
 * [Markdown](https://www.markdownguide.org/)
