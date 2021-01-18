@@ -9,6 +9,7 @@ You can contribute to our minibook with using these tools:
 * [Typora](https://typora.io/)
 * [MathJAX](https://www.mathjax.org/)
 * [mhchem](https://mhchem.github.io/MathJax-mhchem/)
+* mermaid
 
 
 
